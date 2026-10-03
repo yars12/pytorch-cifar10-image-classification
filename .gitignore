@@ -8,10 +8,9 @@ env/
 # Data downloaded by torchvision
 data/
 
-# Generated training artifacts
-artifacts/
-*.pt
-*.pth
+# Large model weights
+artifacts/*.pt
+artifacts/*.pth
 
 # Notebook / editor files
 .ipynb_checkpoints/
