@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data downloaded by torchvision
+data/
+
+# Generated training artifacts
+artifacts/
+*.pt
+*.pth
+
+# Notebook / editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
